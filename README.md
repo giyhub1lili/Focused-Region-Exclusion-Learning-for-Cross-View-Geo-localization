@@ -7,11 +7,11 @@
 FREL 面向 **跨视角地理定位** 任务，适用于地面图像、无人机图像与卫星图像之间的跨视角检索。方法采用两阶段训练：第一阶段训练主分支，第二阶段冻结主分支，并利用热力图引导辅助分支学习主分支未充分关注的互补区域。推理时，主分支与辅助分支的描述子通过逐元素相加融合。
 
 <p align="center">
-  <img src="fig/main_fig/4heatmap.png" alt="热力图引导的掩码过滤模块" width="72%">
+  <img src="fig/heatmap.png" alt="热力图引导的掩码过滤模块" width="72%">
 </p>
 
 <p align="center">
-  <img src="fig/main_fig/4eval.png" alt="检索流程" width="72%">
+  <img src="fig/eval.png" alt="检索流程" width="72%">
 </p>
 
 ## 主要特点
